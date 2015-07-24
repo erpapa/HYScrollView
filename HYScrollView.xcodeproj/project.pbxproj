@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC083DF1B61DD7F00464745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC083DE1B61DD7F00464745 /* main.m */; };
+		EAC083E21B61DD7F00464745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC083E11B61DD7F00464745 /* AppDelegate.m */; };
+		EAC083E51B61DD7F00464745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC083E41B61DD7F00464745 /* ViewController.m */; };
+		EAC083E81B61DD7F00464745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC083E61B61DD7F00464745 /* Main.storyboard */; };
+		EAC083EA1B61DD7F00464745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC083E91B61DD7F00464745 /* Images.xcassets */; };
+		EAC083ED1B61DD7F00464745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC083EB1B61DD7F00464745 /* LaunchScreen.xib */; };
+		EAC083F91B61DD7F00464745 /* HYScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC083F81B61DD7F00464745 /* HYScrollViewTests.m */; };
+		EAC084081B61DD9D00464745 /* img_00.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC084031B61DD9D00464745 /* img_00.png */; };
+		EAC084091B61DD9D00464745 /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC084041B61DD9D00464745 /* img_01.png */; };
+		EAC0840A1B61DD9D00464745 /* img_02.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC084051B61DD9D00464745 /* img_02.png */; };
+		EAC0840B1B61DD9D00464745 /* img_03.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC084061B61DD9D00464745 /* img_03.png */; };
+		EAC0840C1B61DD9D00464745 /* img_04.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC084071B61DD9D00464745 /* img_04.png */; };
+		EAC0840F1B61DDAC00464745 /* HYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0840E1B61DDAC00464745 /* HYScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC083F31B61DD7F00464745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC083D11B61DD7F00464745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC083D81B61DD7F00464745;
+			remoteInfo = HYScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAC083D91B61DD7F00464745 /* HYScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC083DD1B61DD7F00464745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC083DE1B61DD7F00464745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAC083E01B61DD7F00464745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAC083E11B61DD7F00464745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAC083E31B61DD7F00464745 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAC083E41B61DD7F00464745 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAC083E71B61DD7F00464745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC083E91B61DD7F00464745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAC083EC1B61DD7F00464745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAC083F21B61DD7F00464745 /* HYScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC083F71B61DD7F00464745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC083F81B61DD7F00464745 /* HYScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYScrollViewTests.m; sourceTree = "<group>"; };
+		EAC084031B61DD9D00464745 /* img_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_00.png; sourceTree = "<group>"; };
+		EAC084041B61DD9D00464745 /* img_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_01.png; sourceTree = "<group>"; };
+		EAC084051B61DD9D00464745 /* img_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_02.png; sourceTree = "<group>"; };
+		EAC084061B61DD9D00464745 /* img_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_03.png; sourceTree = "<group>"; };
+		EAC084071B61DD9D00464745 /* img_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_04.png; sourceTree = "<group>"; };
+		EAC0840D1B61DDAC00464745 /* HYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYScrollView.h; sourceTree = "<group>"; };
+		EAC0840E1B61DDAC00464745 /* HYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC083D61B61DD7F00464745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC083EF1B61DD7F00464745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC083D01B61DD7F00464745 = {
+			isa = PBXGroup;
+			children = (
+				EAC083DB1B61DD7F00464745 /* HYScrollView */,
+				EAC083F51B61DD7F00464745 /* HYScrollViewTests */,
+				EAC083DA1B61DD7F00464745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC083DA1B61DD7F00464745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC083D91B61DD7F00464745 /* HYScrollView.app */,
+				EAC083F21B61DD7F00464745 /* HYScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC083DB1B61DD7F00464745 /* HYScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EAC0840D1B61DDAC00464745 /* HYScrollView.h */,
+				EAC0840E1B61DDAC00464745 /* HYScrollView.m */,
+				EAC083E01B61DD7F00464745 /* AppDelegate.h */,
+				EAC083E11B61DD7F00464745 /* AppDelegate.m */,
+				EAC083E31B61DD7F00464745 /* ViewController.h */,
+				EAC083E41B61DD7F00464745 /* ViewController.m */,
+				EAC083E61B61DD7F00464745 /* Main.storyboard */,
+				EAC083E91B61DD7F00464745 /* Images.xcassets */,
+				EAC083EB1B61DD7F00464745 /* LaunchScreen.xib */,
+				EAC083DC1B61DD7F00464745 /* Supporting Files */,
+			);
+			path = HYScrollView;
+			sourceTree = "<group>";
+		};
+		EAC083DC1B61DD7F00464745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC084021B61DD9D00464745 /* Img */,
+				EAC083DD1B61DD7F00464745 /* Info.plist */,
+				EAC083DE1B61DD7F00464745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC083F51B61DD7F00464745 /* HYScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC083F81B61DD7F00464745 /* HYScrollViewTests.m */,
+				EAC083F61B61DD7F00464745 /* Supporting Files */,
+			);
+			path = HYScrollViewTests;
+			sourceTree = "<group>";
+		};
+		EAC083F61B61DD7F00464745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC083F71B61DD7F00464745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC084021B61DD9D00464745 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				EAC084031B61DD9D00464745 /* img_00.png */,
+				EAC084041B61DD9D00464745 /* img_01.png */,
+				EAC084051B61DD9D00464745 /* img_02.png */,
+				EAC084061B61DD9D00464745 /* img_03.png */,
+				EAC084071B61DD9D00464745 /* img_04.png */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC083D81B61DD7F00464745 /* HYScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC083FC1B61DD7F00464745 /* Build configuration list for PBXNativeTarget "HYScrollView" */;
+			buildPhases = (
+				EAC083D51B61DD7F00464745 /* Sources */,
+				EAC083D61B61DD7F00464745 /* Frameworks */,
+				EAC083D71B61DD7F00464745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYScrollView;
+			productName = HYScrollView;
+			productReference = EAC083D91B61DD7F00464745 /* HYScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC083F11B61DD7F00464745 /* HYScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC083FF1B61DD7F00464745 /* Build configuration list for PBXNativeTarget "HYScrollViewTests" */;
+			buildPhases = (
+				EAC083EE1B61DD7F00464745 /* Sources */,
+				EAC083EF1B61DD7F00464745 /* Frameworks */,
+				EAC083F01B61DD7F00464745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC083F41B61DD7F00464745 /* PBXTargetDependency */,
+			);
+			name = HYScrollViewTests;
+			productName = HYScrollViewTests;
+			productReference = EAC083F21B61DD7F00464745 /* HYScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC083D11B61DD7F00464745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = erpapa;
+				TargetAttributes = {
+					EAC083D81B61DD7F00464745 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EAC083F11B61DD7F00464745 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EAC083D81B61DD7F00464745;
+					};
+				};
+			};
+			buildConfigurationList = EAC083D41B61DD7F00464745 /* Build configuration list for PBXProject "HYScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC083D01B61DD7F00464745;
+			productRefGroup = EAC083DA1B61DD7F00464745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC083D81B61DD7F00464745 /* HYScrollView */,
+				EAC083F11B61DD7F00464745 /* HYScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC083D71B61DD7F00464745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC083E81B61DD7F00464745 /* Main.storyboard in Resources */,
+				EAC0840B1B61DD9D00464745 /* img_03.png in Resources */,
+				EAC084091B61DD9D00464745 /* img_01.png in Resources */,
+				EAC084081B61DD9D00464745 /* img_00.png in Resources */,
+				EAC0840A1B61DD9D00464745 /* img_02.png in Resources */,
+				EAC0840C1B61DD9D00464745 /* img_04.png in Resources */,
+				EAC083ED1B61DD7F00464745 /* LaunchScreen.xib in Resources */,
+				EAC083EA1B61DD7F00464745 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC083F01B61DD7F00464745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC083D51B61DD7F00464745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC0840F1B61DDAC00464745 /* HYScrollView.m in Sources */,
+				EAC083E51B61DD7F00464745 /* ViewController.m in Sources */,
+				EAC083E21B61DD7F00464745 /* AppDelegate.m in Sources */,
+				EAC083DF1B61DD7F00464745 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC083EE1B61DD7F00464745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC083F91B61DD7F00464745 /* HYScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC083F41B61DD7F00464745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC083D81B61DD7F00464745 /* HYScrollView */;
+			targetProxy = EAC083F31B61DD7F00464745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC083E61B61DD7F00464745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC083E71B61DD7F00464745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC083EB1B61DD7F00464745 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC083EC1B61DD7F00464745 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC083FA1B61DD7F00464745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAC083FB1B61DD7F00464745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC083FD1B61DD7F00464745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAC083FE1B61DD7F00464745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAC084001B61DD7F00464745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYScrollView.app/HYScrollView";
+			};
+			name = Debug;
+		};
+		EAC084011B61DD7F00464745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYScrollView.app/HYScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC083D41B61DD7F00464745 /* Build configuration list for PBXProject "HYScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC083FA1B61DD7F00464745 /* Debug */,
+				EAC083FB1B61DD7F00464745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC083FC1B61DD7F00464745 /* Build configuration list for PBXNativeTarget "HYScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC083FD1B61DD7F00464745 /* Debug */,
+				EAC083FE1B61DD7F00464745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAC083FF1B61DD7F00464745 /* Build configuration list for PBXNativeTarget "HYScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC084001B61DD7F00464745 /* Debug */,
+				EAC084011B61DD7F00464745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC083D11B61DD7F00464745 /* Project object */;
+}
