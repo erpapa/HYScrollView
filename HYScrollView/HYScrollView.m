@@ -101,9 +101,7 @@
     [_scrollView addSubview:_imageView2];
 
 }
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
-    [self addTimer:self.scrollDuration];
-}
+
 /**
  *  下一页
  */
